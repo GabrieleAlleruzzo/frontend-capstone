@@ -1,12 +1,64 @@
-# React + Vite
+# Capstone Portfolio - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Questo progetto rappresenta il frontend del mio portfolio personale, sviluppato con React. È parte di un'applicazione full-stack, il cui backend è realizzato con Spring Boot.
 
-Currently, two official plugins are available:
+Questo repository copre esclusivamente la parte frontend. Il backend è disponibile in un repository separato:
+https://github.com/GabrieleAlleruzzo/backend-capstone
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Requisiti per l'esecuzione
 
-## Expanding the ESLint configuration
+Per far funzionare correttamente il sito, è necessario clonare e avviare sia il frontend che il backend.
+Assicurati che il backend sia correttamente configurato come descritto qui sotto.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Configurazione Backend
+
+All'interno del progetto backend, devi creare un file env.properties nella cartella src. Questo file è necessario per fornire le variabili sensibili al progetto (password, chiavi API, ecc.).
+
+## Esempio di env.properties:
+
+Inserisci le tue credenziali e API key reali nei campi vuoti.
+
+```env
+postgresql.password=
+
+# Cloudinary
+cloud_name=
+api_key=
+api_secret=
+```
+
+## Avvio frontend
+
+Creare un file di tipo .env con questa configurazione
+
+```env
+REACT_APP_API_URL=
+REACT_APP_PORT=
+```
+
+## Postman - Collection API CRUD
+
+Nel repository del backend è inclusa una collection Postman chiamata:
+ProgettoCapstone.postman_API_collection
+
+Questa collection ti permette di testare le API CRUD e ottenere il token di autenticazione, necessario per visualizzare correttamente le pagine Commissioni e ProgettoCommissione.
+
+## Cosa fare con Postman:
+
+Effettua una register (POST registerAdmin)
+
+Compila la post per realizzare almeno un progettoPortfolio (POST postPortfolio)
+
+## Tecnologie Utilizzate
+
+Frontend: React, Bootstrap, BootstrapReact Axios
+
+Backend: Spring Boot, PostgreSQL, Cloudinary, JavaMail
+
+Autenticazione: JWT
+
+Dev Tools: Postman, Git, Maven
+
+## Autore
+
+Progetto sviluppato da Gabriele Alleruzzo come parte del percorso di formazione Epicode.
