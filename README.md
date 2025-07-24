@@ -29,7 +29,7 @@ api_secret=
 
 ## Avvio frontend
 
-Creare un file di tipo .env con questa configurazione
+Creare un file di tipo .env nella root con questa configurazione
 
 ```env
 REACT_APP_API_URL=

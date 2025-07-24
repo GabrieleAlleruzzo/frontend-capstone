@@ -1,7 +1,10 @@
 import axios from "axios";
 
+const apiUrl = import.meta.env.VITE_APP_API_URL;
+const apiPort = import.meta.env.VITE_APP_PORT;
+
 const apiClient = axios.create({
-  baseURL: `${process.env.REACT_APP_API_URL}:${process.env.REACT_APP_PORT}/`,
+  baseURL: `${apiUrl}:${apiPort}/`,
   timeout: 10000000,
   headers: {
     "Content-Type": "application/json",
