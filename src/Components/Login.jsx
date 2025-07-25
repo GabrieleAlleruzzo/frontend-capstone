@@ -88,7 +88,7 @@ const Login = () => {
       <div className="container">
         <Col>
           <h2>Login</h2>
-          <p>Solo l'admin può entrare.</p>
+          <p>Inserisci le credenziali per accedere.</p>
           <form
             method="POST"
             action=""

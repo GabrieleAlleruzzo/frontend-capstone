@@ -72,7 +72,7 @@ const Home = () => {
               <p>
                 logo design <br />
                 web design <br />
-                SM Menagement
+                S.M. Management
               </p>
             </Col>{" "}
             <Col
@@ -108,8 +108,8 @@ const Home = () => {
               <p className="">
                 Dal 2020 progetto e sviluppo la comunicazione di piccole e medie
                 imprese su canali social, digitali e stampati come freelance e
-                collaboratore esterno per agenzie di digital marketing e agenzie
-                web.
+                collaboratore esterno per agenzie di digital marketing e web
+                agencies.
               </p>
               <Link className="custom-btn2" to="/about">
                 {" "}
@@ -161,9 +161,9 @@ const Home = () => {
             <Col xs={12} md={6} className="p-lg-5 p-md-5  col-md-6 col-12 p-0">
               <h2>Portfolio</h2>
               <p className="">
-                Ho lavorato principalemnte come visual designer per uffici e
-                attività commerciali, progettando dai classici menù da tavolo a
-                siti web e UX/UI.
+                Ho lavorato come graphic e web designer per uffici e attività
+                commerciali, progettando dai classici menù da tavolo a loghi
+                aziendali e siti web.
               </p>
               <Link className="custom-btn2" to="/portfolio">
                 {" "}
@@ -184,7 +184,7 @@ const Home = () => {
               <h2>Commissions</h2>
               <p className="">
                 Al momento accetto lavori su commissione. Se hai un idea per un
-                progetto da pripormi clicca sul link di seguito e compila il
+                progetto da propormi clicca sul link di seguito e compila il
                 modulo.
               </p>
               <Link className="custom-btn2" to="commissiona">
@@ -202,8 +202,9 @@ const Home = () => {
             <Col xs={12} md={0} className="d-block d-md-none p-0">
               <h2>Commissions</h2>
               <p className="">
-                Si accettano commissioni di progetti grafici e web, proponi il
-                tuo progetto.
+                Al momento accetto lavori su commissione. Se hai un idea per un
+                progetto da propormi clicca sul link di seguito e compila il
+                modulo.
               </p>
               <Link className="custom-btn2" to="commissiona">
                 {" "}

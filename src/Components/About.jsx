@@ -13,7 +13,7 @@ const About = () => {
             <h2>About</h2>
             <h1 className="fw-bolder">GABRIELE ALLERUZZO</h1>
 
-            <strong>logo designer/ web designer/ S.M. Menager</strong>
+            <strong>logo designer/ web designer/ S.M. Manager</strong>
 
             {/*img visibile solo su mobile */}
             <img
@@ -24,8 +24,8 @@ const About = () => {
             />
             <p>
               Gabriele Alleruzzo (Messina, 1996) è un graphic designer, web
-              designer e SMM (Social Media Menager). Dal 2020 si occupa di
-              identità visiva per piccole e medie imprese sul territorio
+              designer e S.M.M. (Social Media Manager). Dal 2020 si occupa di
+              identità visive per piccole e medie imprese sul territorio
               siciliano.
               <br />
               <br />
@@ -35,11 +35,11 @@ const About = () => {
                 to="/progettoportfolio/155"
               >
                 Birrificio Artigianale Zankle
-              </Link>
+              </Link>{" "}
               per cui ha progettato etichette, illustrazioni animate e strategie
               di comunicazione su canali social. Successivamente ha lavorato per
               agenzie di comunicazione come Mind, Connessioni Digital Hub e
-              TrovaWeb, progettando grafiche e interfaccie per siti web, landing
+              TrovaWeb, progettando grafiche e interfacce per siti web, landing
               page ed ecommerce.
               <br /> <br />
               Oggi lavora come freelance su commissione, mostrando forte

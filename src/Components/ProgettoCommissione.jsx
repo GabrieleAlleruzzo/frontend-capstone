@@ -126,11 +126,17 @@ const ProgettoCommissione = () => {
             <ul className="my-4">
               <li>
                 <b>
-                  {commissionData.name} {commissionData.surname}
+                  <span>
+                    {commissionData.name} {commissionData.surname}
+                  </span>
                 </b>
               </li>
-              <li>Tel: +39 {commissionData.tel}</li>
-              <li>Email: {commissionData.email}</li>
+              <li>
+                <span>Tel: +39 {commissionData.tel}</span>
+              </li>
+              <li>
+                <span>Email: {commissionData.email}</span>
+              </li>
             </ul>
 
             <Button
