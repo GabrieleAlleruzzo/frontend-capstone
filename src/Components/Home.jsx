@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import Carousel from "react-bootstrap/Carousel";
 import { GetAllProgettiProtfolio } from "../API/api.js";
 import { useState, useEffect, useLayoutEffect } from "react";
+import meff1 from "../assets/images/meff-1.png";
+import home from "../assets/images/home-01B.png";
 
 const Home = () => {
   const [portfolioData, setPortfolioData] = useState([]);
@@ -117,11 +119,7 @@ const Home = () => {
               </Link>
             </Col>
             <Col xs={12} md={6}>
-              <img
-                className="mb-2 w-100 "
-                src="src/assets/images/meff-1.png"
-                alt="meff pensante"
-              />
+              <img className="mb-2 w-100 " src={meff1} alt="meff pensante" />
             </Col>{" "}
             <Col xs={12} md={0} className="d-block d-md-none p-sm-0 p-0">
               <h2>About me</h2>
@@ -193,11 +191,7 @@ const Home = () => {
               </Link>
             </Col>
             <Col xs={12} md={6} className="p-0">
-              <img
-                className="mb-2 w-100"
-                src="src/assets/images/home-01B.png"
-                alt="simboli grafici"
-              />
+              <img className="mb-2 w-100" src={home} alt="simboli grafici" />
             </Col>
             <Col xs={12} md={0} className="d-block d-md-none p-0">
               <h2>Commissions</h2>
