@@ -4,7 +4,9 @@ const apiUrl = import.meta.env.VITE_APP_API_URL;
 const apiPort = import.meta.env.VITE_APP_PORT;
 
 const apiClient = axios.create({
-  baseURL: `${apiUrl}:${apiPort}/`,
+  //  baseURL: `${apiUrl}:${apiPort}/`, locale
+  // baseURL: apiUrl.endsWith("/") ? apiUrl : `${apiUrl}/`,
+  baseURL: apiUrl,
   timeout: 10000000,
   headers: {
     "Content-Type": "application/json",
