@@ -96,10 +96,10 @@ const ProgettoPortfolio = () => {
                 : portfolioData.descrizione}
             </p>
 
-            <span>
+            {/* <span>
               Pubblicato:{" "}
               <strong>{new Date(portfolioData.data).getFullYear()}</strong>
-            </span>
+            </span> */}
           </Col>
 
           <Container className="p-0 my-2">

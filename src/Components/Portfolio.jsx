@@ -32,9 +32,7 @@ const Portfolio = () => {
         <Row className="justify-center">
           <Col xs={12}>
             <h2>Portfolio</h2>
-            <p>
-              Progetti d'identità visiva firmati <em>Gabriele Alleruzzo</em>
-            </p>
+            <p>Progetti d'identità visive.</p>
           </Col>
         </Row>
         <Row className="justify-center">
@@ -77,7 +75,7 @@ const Portfolio = () => {
                   imageSrc={progetto.imgCopertina}
                   title={progetto.nomeProgetto}
                   description={progetto.descrizione}
-                  year={new Date(progetto.data).getFullYear()}
+                  /* year={new Date(progetto.data).getFullYear()} */
                 />
               </Col>
             ))}
