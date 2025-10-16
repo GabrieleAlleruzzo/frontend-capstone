@@ -75,7 +75,7 @@ const Portfolio = () => {
                   imageSrc={progetto.imgCopertina}
                   title={progetto.nomeProgetto}
                   description={progetto.descrizione}
-                  year={new Date(progetto.data).getFullYear()}
+                  /* year={new Date(progetto.data).getFullYear()} */
                 />
               </Col>
             ))}
